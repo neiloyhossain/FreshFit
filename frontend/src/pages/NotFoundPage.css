@@ -1,0 +1,21 @@
+.notfound-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffdde1 0%, #ee9ca7 100%);
+}
+
+.notfound-card {
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #fff;
+  min-width: 320px;
+  text-align: center;
+}
+
+.notfound-title {
+  color: #c0392b;
+  margin-bottom: 1rem;
+}

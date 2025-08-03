@@ -1,0 +1,23 @@
+.wardrobe-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+  padding-top: 80px; /* Add padding for fixed navbar */
+  box-sizing: border-box;
+}
+
+.wardrobe-card {
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #fff;
+  min-width: 320px;
+  text-align: center;
+}
+
+.wardrobe-title {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+.outhist-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  padding-top: 80px; /* Add padding for fixed navbar */
+  box-sizing: border-box;
+}
+
+.outhist-card {
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #fff;
+  min-width: 320px;
+  text-align: center;
+}
+
+.outhist-title {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
